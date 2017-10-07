@@ -3,6 +3,6 @@ services:
 - docker
 language: bash
 script:
-- docker build -t ansi/feelflight-A-webinterface:latest .
+- docker build -t ansi/feelflight-a-webinterface:latest .
 - docker login -u="$DOCKER_USER" -p="$DOCKER_PASS"
-- docker push ansi/feelflight-A-webinterface:latest
+- docker push ansi/feelflight-a-webinterface:latest
